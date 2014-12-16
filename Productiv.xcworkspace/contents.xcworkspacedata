@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ZSWNewGoalViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:ZSWNewGoalViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:ZSWNewGoalViewController.xib">
+   </FileRef>
+   <FileRef
+      location = "group:Productiv.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

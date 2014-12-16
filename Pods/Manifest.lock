@@ -1,0 +1,16 @@
+PODS:
+  - MagicPie (1.0.1)
+  - NSDate-Escort (1.4.0)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - MagicPie
+  - NSDate-Escort
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  MagicPie: 1096cb2d67504f4115473bba7b2aee2869d92ac4
+  NSDate-Escort: 321f198e6a7a4573541561b42d3163a0ea54ea1b
+  SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190
+
+COCOAPODS: 0.33.1

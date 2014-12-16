@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZSWDetailViewController">
+            <connections>
+                <outlet property="categoryButton" destination="Dlh-jp-Icn" id="wco-mw-kDz"/>
+                <outlet property="categoryDisplayView" destination="RYO-kw-KYn" id="QHY-mn-9F1"/>
+                <outlet property="categoryDownArrow" destination="YMh-Go-gog" id="5T5-Mk-bfV"/>
+                <outlet property="categoryLabel" destination="BWX-p0-UKR" id="amw-dV-fS1"/>
+                <outlet property="checkmark" destination="rfr-z7-UGy" id="h7p-zB-cfR"/>
+                <outlet property="noteButton" destination="Cgx-f1-5Nq" id="LLF-Cw-K3f"/>
+                <outlet property="noteImage" destination="KuD-Ib-iWX" id="8qX-Um-Lbg"/>
+                <outlet property="noteLabel" destination="ux1-uj-Tq3" id="It7-Ug-Mvt"/>
+                <outlet property="otherButton" destination="fnk-IF-DIM" id="CRg-tH-Bym"/>
+                <outlet property="reminderClock" destination="zbv-De-cef" id="X4x-ri-uHu"/>
+                <outlet property="reminderDisplayView" destination="DOt-7k-5n5" id="7jK-Cd-m5h"/>
+                <outlet property="reminderInfoLabel" destination="fEw-Wa-SRP" id="xei-N9-tze"/>
+                <outlet property="repeatDisplayView" destination="d2O-x5-hSJ" id="iUj-S4-G5E"/>
+                <outlet property="repeatIcon" destination="UzR-E8-ja9" id="ag1-9F-D3a"/>
+                <outlet property="repeatInfoLabel" destination="BKy-7r-UEP" id="tye-fH-5Ms"/>
+                <outlet property="setToRepeatButton" destination="HwU-dJ-RuB" id="bcl-Rx-4Cy"/>
+                <outlet property="showNoteButton" destination="Cgx-f1-5Nq" id="6qH-oJ-niL"/>
+                <outlet property="taskIntroLabel" destination="VNs-Zb-aG2" id="Y1n-bp-isu"/>
+                <outlet property="textField" destination="ceu-81-zvR" id="JlE-wM-84c"/>
+                <outlet property="todayButton" destination="HFo-qz-kcb" id="mTf-33-1pO"/>
+                <outlet property="tomorrowButton" destination="idb-gU-SY9" id="Tnv-f4-1wi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rfr-z7-UGy">
+                    <rect key="frame" x="5" y="31" width="45" height="45"/>
+                </imageView>
+                <textField appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ceu-81-zvR" userLabel="No Border Style Text Field">
+                    <rect key="frame" x="55" y="39" width="237" height="30"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YV-Zq-zhK">
+                    <rect key="frame" x="0.0" y="21" width="50" height="67"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="switchTask:" destination="-1" eventType="touchUpInside" id="PQe-H0-N5K"/>
+                    </connections>
+                </button>
+                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KuD-Ib-iWX">
+                    <rect key="frame" x="253" y="92" width="47" height="47"/>
+                </imageView>
+                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgx-f1-5Nq">
+                    <rect key="frame" x="253" y="92" width="47" height="47"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showNote:" destination="-1" eventType="touchUpInside" id="eo7-Er-4Bt"/>
+                    </connections>
+                </button>
+                <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Note" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ux1-uj-Tq3">
+                    <rect key="frame" x="258" y="72" width="37" height="21"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNs-Zb-aG2">
+                    <rect key="frame" x="3" y="6" width="315" height="25"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view appearanceType="aqua" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RYO-kw-KYn" userLabel="category">
+                    <rect key="frame" x="87" y="92" width="147" height="30"/>
+                    <subviews>
+                        <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWX-p0-UKR">
+                            <rect key="frame" x="0.0" y="-3" width="115" height="36"/>
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                            <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YMh-Go-gog">
+                            <rect key="frame" x="111" y="9" width="26" height="12"/>
+                        </imageView>
+                        <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlh-jp-Icn" userLabel="category button">
+                            <rect key="frame" x="-4" y="-3" width="154" height="36"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showCategories:" destination="-1" eventType="touchUpInside" id="ndn-N5-7qU"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </view>
+                <view appearanceType="aqua" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DOt-7k-5n5" userLabel="reminder">
+                    <rect key="frame" x="5" y="147" width="311" height="36"/>
+                    <subviews>
+                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbv-De-cef">
+                            <rect key="frame" x="10" y="7" width="20" height="21"/>
+                        </imageView>
+                        <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Set a reminder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEw-Wa-SRP">
+                            <rect key="frame" x="40" y="0.0" width="254" height="36"/>
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                            <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPD-NX-zRp" userLabel="reminder button">
+                            <rect key="frame" x="0.0" y="0.0" width="311" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="2Lf-Fu-Tte"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showReminderView:" destination="-1" eventType="touchUpInside" id="GQh-0Q-Ebl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="JPP-Jp-6Td"/>
+                        <constraint firstItem="OPD-NX-zRp" firstAttribute="top" secondItem="DOt-7k-5n5" secondAttribute="top" id="o8u-Pu-Qfm"/>
+                    </constraints>
+                </view>
+                <view appearanceType="aqua" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d2O-x5-hSJ" userLabel="repeat">
+                    <rect key="frame" x="4" y="191" width="311" height="36"/>
+                    <subviews>
+                        <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UzR-E8-ja9">
+                            <rect key="frame" x="10" y="7" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="23j-Vg-MDV"/>
+                                <constraint firstAttribute="height" constant="20" id="s2N-z5-v71"/>
+                            </constraints>
+                        </imageView>
+                        <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" misplaced="YES" text="Set this task to repeat" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="BKy-7r-UEP">
+                            <rect key="frame" x="38" y="6" width="254" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="254" id="z1j-EG-b6F"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
+                            <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwU-dJ-RuB" userLabel="repeat button">
+                            <rect key="frame" x="0.0" y="0.0" width="311" height="73"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="setToRepeat:" destination="-1" eventType="touchUpInside" id="8eq-f1-j91"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="BKy-7r-UEP" firstAttribute="top" secondItem="d2O-x5-hSJ" secondAttribute="top" constant="6" id="0hx-4Z-eFg"/>
+                        <constraint firstItem="BKy-7r-UEP" firstAttribute="leading" secondItem="UzR-E8-ja9" secondAttribute="trailing" constant="8" id="1Ub-E6-iKc"/>
+                        <constraint firstAttribute="bottom" secondItem="BKy-7r-UEP" secondAttribute="bottom" constant="6" id="9Cn-jd-GoH"/>
+                        <constraint firstAttribute="trailing" secondItem="BKy-7r-UEP" secondAttribute="trailing" constant="19" id="FIc-dw-Jnq"/>
+                        <constraint firstItem="BKy-7r-UEP" firstAttribute="leading" secondItem="UzR-E8-ja9" secondAttribute="trailing" constant="8" id="g0l-qn-KXD"/>
+                        <constraint firstAttribute="width" constant="311" id="lKU-Fs-asA"/>
+                        <constraint firstItem="UzR-E8-ja9" firstAttribute="leading" secondItem="d2O-x5-hSJ" secondAttribute="leading" constant="10" id="qiQ-sA-FeL"/>
+                        <constraint firstItem="UzR-E8-ja9" firstAttribute="top" secondItem="d2O-x5-hSJ" secondAttribute="top" constant="7" id="voW-wB-87j"/>
+                    </constraints>
+                </view>
+                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFo-qz-kcb">
+                    <rect key="frame" x="4" y="235" width="97" height="50"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                    <state key="normal" title="Today">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="today:" destination="-1" eventType="touchUpInside" id="D2q-cS-ezN"/>
+                    </connections>
+                </button>
+                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idb-gU-SY9">
+                    <rect key="frame" x="111" y="235" width="97" height="50"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                    <state key="normal" title="Tomorrow">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="tomorrow:" destination="-1" eventType="touchUpInside" id="ld8-Yq-DEZ"/>
+                    </connections>
+                </button>
+                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnk-IF-DIM">
+                    <rect key="frame" x="218" y="235" width="97" height="50"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
+                    <state key="normal" title="Other">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="other:" destination="-1" eventType="touchUpInside" id="N8z-5z-jgp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="d2O-x5-hSJ" firstAttribute="top" secondItem="DOt-7k-5n5" secondAttribute="bottom" constant="8" id="24V-RT-Lwu"/>
+                <constraint firstItem="DOt-7k-5n5" firstAttribute="top" secondItem="Cgx-f1-5Nq" secondAttribute="bottom" constant="8" id="6iM-Xb-4yV"/>
+                <constraint firstItem="ceu-81-zvR" firstAttribute="top" secondItem="VNs-Zb-aG2" secondAttribute="bottom" constant="8" id="DOM-iv-yPy"/>
+                <constraint firstItem="d2O-x5-hSJ" firstAttribute="top" secondItem="DOt-7k-5n5" secondAttribute="bottom" constant="8" id="F3S-eb-Pq9"/>
+                <constraint firstAttribute="trailing" secondItem="DOt-7k-5n5" secondAttribute="trailing" constant="4" id="Gx6-Hs-7mw"/>
+                <constraint firstItem="VNs-Zb-aG2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="6" id="Hmg-Ga-ICZ"/>
+                <constraint firstItem="Cgx-f1-5Nq" firstAttribute="leading" secondItem="RYO-kw-KYn" secondAttribute="trailing" constant="19" id="NhP-bQ-Csh"/>
+                <constraint firstItem="fnk-IF-DIM" firstAttribute="top" secondItem="d2O-x5-hSJ" secondAttribute="bottom" constant="8" id="X0J-Cv-8vj"/>
+                <constraint firstItem="ux1-uj-Tq3" firstAttribute="top" secondItem="ceu-81-zvR" secondAttribute="bottom" constant="3" id="X9f-ZI-vkz"/>
+                <constraint firstItem="RYO-kw-KYn" firstAttribute="top" secondItem="ceu-81-zvR" secondAttribute="bottom" constant="23" id="bx6-03-U0W"/>
+                <constraint firstItem="DOt-7k-5n5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="eJp-lx-ZU3"/>
+                <constraint firstItem="idb-gU-SY9" firstAttribute="top" secondItem="fnk-IF-DIM" secondAttribute="top" id="eUz-vj-dM2"/>
+                <constraint firstItem="rfr-z7-UGy" firstAttribute="top" secondItem="VNs-Zb-aG2" secondAttribute="bottom" id="mfW-bk-Hsq"/>
+                <constraint firstAttribute="trailing" secondItem="ceu-81-zvR" secondAttribute="trailing" constant="28" id="rXX-i0-vv5"/>
+                <constraint firstItem="HFo-qz-kcb" firstAttribute="top" secondItem="fnk-IF-DIM" secondAttribute="top" id="sIT-mf-hun"/>
+                <constraint firstItem="ceu-81-zvR" firstAttribute="leading" secondItem="9YV-Zq-zhK" secondAttribute="trailing" constant="5" id="smx-l9-Y7T"/>
+                <constraint firstItem="RYO-kw-KYn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="87" id="v1B-GP-1sI"/>
+                <constraint firstItem="DOt-7k-5n5" firstAttribute="top" secondItem="RYO-kw-KYn" secondAttribute="bottom" constant="25" id="zDK-Zy-rBV"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <action selector="touchUpInside:" destination="-1" eventType="touchUpInside" id="Zoz-Fu-LBl"/>
+            </connections>
+        </view>
+    </objects>
+</document>
