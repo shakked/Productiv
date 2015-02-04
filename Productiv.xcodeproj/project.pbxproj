@@ -16,22 +16,14 @@
 		4A0EA3D019A9252F00F6223B /* ZSWNewGoalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A0EA3CE19A9252F00F6223B /* ZSWNewGoalViewController.xib */; };
 		4A1C3453197CEED100D53C59 /* ZSWNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C3451197CEED100D53C59 /* ZSWNoteViewController.m */; };
 		4A1C3454197CEED100D53C59 /* ZSWNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C3452197CEED100D53C59 /* ZSWNoteViewController.xib */; };
-		4A1C345B197DA9C400D53C59 /* cameraIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C3459197DA9C400D53C59 /* cameraIcon.png */; };
-		4A1C345C197DA9C400D53C59 /* cameraIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C345A197DA9C400D53C59 /* cameraIcon@2x.png */; };
 		4A1C3460197DC4B700D53C59 /* ZSWRepeatSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C345E197DC4B700D53C59 /* ZSWRepeatSelectorViewController.m */; };
 		4A1C3461197DC4B700D53C59 /* ZSWRepeatSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C345F197DC4B700D53C59 /* ZSWRepeatSelectorViewController.xib */; };
 		4A1C3465197DD57900D53C59 /* ZSWDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C3463197DD57900D53C59 /* ZSWDatePickerViewController.m */; };
 		4A1C3466197DD57900D53C59 /* ZSWDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C3464197DD57900D53C59 /* ZSWDatePickerViewController.xib */; };
 		4A1C3469197F720C00D53C59 /* ZSWDictionaryTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C3468197F720C00D53C59 /* ZSWDictionaryTransformer.m */; };
 		4A1C347219822DCE00D53C59 /* ZSWSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C347119822DCE00D53C59 /* ZSWSummaryViewController.m */; };
-		4A1C347519823BB500D53C59 /* summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C347319823BB500D53C59 /* summary.png */; };
-		4A1C347619823BB500D53C59 /* summary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C347419823BB500D53C59 /* summary@2x.png */; };
 		4A1DFC96197CC1FD00687222 /* ZSWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DFC94197CC1FD00687222 /* ZSWDetailViewController.m */; };
 		4A1DFC97197CC1FD00687222 /* ZSWDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DFC95197CC1FD00687222 /* ZSWDetailViewController.xib */; };
-		4A1DFC9C197CE98600687222 /* bigNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DFC98197CE98600687222 /* bigNote.png */; };
-		4A1DFC9D197CE98600687222 /* bigNote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DFC99197CE98600687222 /* bigNote@2x.png */; };
-		4A1DFC9E197CE98600687222 /* miniNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DFC9A197CE98600687222 /* miniNote.png */; };
-		4A1DFC9F197CE98600687222 /* miniNote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A1DFC9B197CE98600687222 /* miniNote@2x.png */; };
 		4A2D09D0197A2162007AC3B9 /* ZSWCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D09CF197A2162007AC3B9 /* ZSWCategoryViewController.m */; };
 		4A2D09D4197A3716007AC3B9 /* ZSWNewCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D09D2197A3716007AC3B9 /* ZSWNewCategoryViewController.m */; };
 		4A2D09D5197A3716007AC3B9 /* ZSWNewCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09D3197A3716007AC3B9 /* ZSWNewCategoryViewController.xib */; };
@@ -40,24 +32,6 @@
 		4A2D09E3197A3FED007AC3B9 /* ZSWTaskCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09E1197A3FED007AC3B9 /* ZSWTaskCellTableViewCell.xib */; };
 		4A2D09E7197A4B57007AC3B9 /* ZSWNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D09E5197A4B57007AC3B9 /* ZSWNewTaskViewController.m */; };
 		4A2D09E8197A4B57007AC3B9 /* ZSWNewTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09E6197A4B57007AC3B9 /* ZSWNewTaskViewController.xib */; };
-		4A2D09EB197AD994007AC3B9 /* Slice 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09E9197AD994007AC3B9 /* Slice 1.png */; };
-		4A2D09EC197AD994007AC3B9 /* Slice 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09EA197AD994007AC3B9 /* Slice 1@2x.png */; };
-		4A2D09EF197ADE3A007AC3B9 /* filledCheckmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09ED197ADE3A007AC3B9 /* filledCheckmark.png */; };
-		4A2D09F0197ADE3A007AC3B9 /* filledCheckmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09EE197ADE3A007AC3B9 /* filledCheckmark@2x.png */; };
-		4A2D09F3197AE569007AC3B9 /* categories.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09F1197AE569007AC3B9 /* categories.png */; };
-		4A2D09F4197AE569007AC3B9 /* categories@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09F2197AE569007AC3B9 /* categories@2x.png */; };
-		4A2D09F9197C4427007AC3B9 /* checkmarkEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09F5197C4427007AC3B9 /* checkmarkEmpty.png */; };
-		4A2D09FA197C4427007AC3B9 /* checkmarkEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09F6197C4427007AC3B9 /* checkmarkEmpty@2x.png */; };
-		4A2D09FB197C4427007AC3B9 /* checkmarkFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09F7197C4427007AC3B9 /* checkmarkFilled.png */; };
-		4A2D09FC197C4427007AC3B9 /* checkmarkFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D09F8197C4427007AC3B9 /* checkmarkFilled@2x.png */; };
-		4A35EF7C19860BBE00307E52 /* noteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7419860BBE00307E52 /* noteIcon.png */; };
-		4A35EF7D19860BBE00307E52 /* noteIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7519860BBE00307E52 /* noteIcon@2x.png */; };
-		4A35EF7E19860BBE00307E52 /* repeatDaily.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7619860BBE00307E52 /* repeatDaily.png */; };
-		4A35EF7F19860BBE00307E52 /* repeatDaily@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7719860BBE00307E52 /* repeatDaily@2x.png */; };
-		4A35EF8019860BBE00307E52 /* repeatMonthly.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7819860BBE00307E52 /* repeatMonthly.png */; };
-		4A35EF8119860BBE00307E52 /* repeatMonthly@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7919860BBE00307E52 /* repeatMonthly@2x.png */; };
-		4A35EF8219860BBE00307E52 /* repeatWeekly.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7A19860BBE00307E52 /* repeatWeekly.png */; };
-		4A35EF8319860BBE00307E52 /* repeatWeekly@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A35EF7B19860BBE00307E52 /* repeatWeekly@2x.png */; };
 		4A3F5A6B197A12E0002279B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3F5A6A197A12E0002279B6 /* Foundation.framework */; };
 		4A3F5A6D197A12E0002279B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3F5A6C197A12E0002279B6 /* CoreGraphics.framework */; };
 		4A3F5A6F197A12E0002279B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3F5A6E197A12E0002279B6 /* UIKit.framework */; };
@@ -75,32 +49,17 @@
 		4A3F5AA1197A19DB002279B6 /* ZSWTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F5AA0197A19DB002279B6 /* ZSWTask.m */; };
 		4A3F5AA4197A1B02002279B6 /* ZSWTaskStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F5AA3197A1B02002279B6 /* ZSWTaskStore.m */; };
 		4A5E1A95199AE6260085B81B /* ZSWSummaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E1A94199AE6260085B81B /* ZSWSummaryTableViewController.m */; };
-		4A7D1C2B198F362D004F06AA /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D1C29198F362C004F06AA /* downArrow.png */; };
-		4A7D1C2C198F362D004F06AA /* downArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D1C2A198F362D004F06AA /* downArrow@2x.png */; };
 		4A7EA849199C7FE600477DC2 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA848199C7FE600477DC2 /* launch.png */; };
 		4A7EA84B199C805000477DC2 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA84A199C805000477DC2 /* launch@2x.png */; };
 		4A7EA84E199C815800477DC2 /* launchSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA84C199C815800477DC2 /* launchSmall.png */; };
 		4A7EA84F199C815800477DC2 /* launchSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA84D199C815800477DC2 /* launchSmall@2x.png */; };
 		4ABB642E1989F6430011F0AA /* ZSWCategorySummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB642D1989F6430011F0AA /* ZSWCategorySummaryViewController.m */; };
-		4AC5F20319934B4800996099 /* downArrow2511.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20119934B4800996099 /* downArrow2511.png */; };
-		4AC5F20419934B4800996099 /* downArrow2511@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20219934B4800996099 /* downArrow2511@2x.png */; };
-		4AC5F20719934C2F00996099 /* downArrow3622.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20519934C2F00996099 /* downArrow3622.png */; };
-		4AC5F20819934C2F00996099 /* downArrow3622@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20619934C2F00996099 /* downArrow3622@2x.png */; };
-		4AC5F20A19934D0100996099 /* downArrow2816.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20919934D0100996099 /* downArrow2816.png */; };
-		4AC5F20F1995758B00996099 /* repeatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20B1995758B00996099 /* repeatIcon.png */; };
-		4AC5F2101995758B00996099 /* repeatIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20C1995758B00996099 /* repeatIcon@2x.png */; };
-		4AC5F2111995758B00996099 /* repeatIconFilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20D1995758B00996099 /* repeatIconFilled.png */; };
-		4AC5F2121995758B00996099 /* repeatIconFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F20E1995758B00996099 /* repeatIconFilled@2x.png */; };
 		4AC5F21C199693F200996099 /* iphoneAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F216199693F200996099 /* iphoneAppIcon.png */; };
 		4AC5F21D199693F200996099 /* iphoneAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F217199693F200996099 /* iphoneAppIcon@2x.png */; };
 		4AC5F21E199693F200996099 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F218199693F200996099 /* iTunesArtwork.png */; };
 		4AC5F21F199693F200996099 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F219199693F200996099 /* iTunesArtwork@2x.png */; };
 		4AC5F2251996988E00996099 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F2241996988E00996099 /* Media.xcassets */; };
 		4AC5F22819981A6500996099 /* ZSWTaskByCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5F22719981A6500996099 /* ZSWTaskByCategoryTableViewController.m */; };
-		4ADE49C91993256E00BF73B7 /* reminderClock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE49C71993256E00BF73B7 /* reminderClock.png */; };
-		4ADE49CA1993256E00BF73B7 /* reminderClock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE49C81993256E00BF73B7 /* reminderClock@2x.png */; };
-		4ADE49CD199326DB00BF73B7 /* reminderClockSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE49CB199326DB00BF73B7 /* reminderClockSet.png */; };
-		4ADE49CE199326DB00BF73B7 /* reminderClockSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE49CC199326DB00BF73B7 /* reminderClockSet@2x.png */; };
 		A0E35C2F7AC241A1998EB23C /* libPods-Productiv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BAA5FBF40C429DAF51A5CE /* libPods-Productiv.a */; };
 /* End PBXBuildFile section */
 
@@ -129,8 +88,6 @@
 		4A1C3450197CEED100D53C59 /* ZSWNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWNoteViewController.h; sourceTree = "<group>"; };
 		4A1C3451197CEED100D53C59 /* ZSWNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWNoteViewController.m; sourceTree = "<group>"; };
 		4A1C3452197CEED100D53C59 /* ZSWNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSWNoteViewController.xib; sourceTree = "<group>"; };
-		4A1C3459197DA9C400D53C59 /* cameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cameraIcon.png; path = ../../images/cameraIcon.png; sourceTree = "<group>"; };
-		4A1C345A197DA9C400D53C59 /* cameraIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cameraIcon@2x.png"; path = "../../images/cameraIcon@2x.png"; sourceTree = "<group>"; };
 		4A1C345D197DC4B700D53C59 /* ZSWRepeatSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWRepeatSelectorViewController.h; sourceTree = "<group>"; };
 		4A1C345E197DC4B700D53C59 /* ZSWRepeatSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWRepeatSelectorViewController.m; sourceTree = "<group>"; };
 		4A1C345F197DC4B700D53C59 /* ZSWRepeatSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSWRepeatSelectorViewController.xib; sourceTree = "<group>"; };
@@ -141,15 +98,9 @@
 		4A1C3468197F720C00D53C59 /* ZSWDictionaryTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWDictionaryTransformer.m; sourceTree = "<group>"; };
 		4A1C347019822DCE00D53C59 /* ZSWSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWSummaryViewController.h; sourceTree = "<group>"; };
 		4A1C347119822DCE00D53C59 /* ZSWSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWSummaryViewController.m; sourceTree = "<group>"; };
-		4A1C347319823BB500D53C59 /* summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = summary.png; path = ../../images/summary.png; sourceTree = "<group>"; };
-		4A1C347419823BB500D53C59 /* summary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "summary@2x.png"; path = "../../images/summary@2x.png"; sourceTree = "<group>"; };
 		4A1DFC93197CC1FD00687222 /* ZSWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSWDetailViewController.h; path = Productiv/ZSWDetailViewController.h; sourceTree = "<group>"; };
 		4A1DFC94197CC1FD00687222 /* ZSWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSWDetailViewController.m; path = Productiv/ZSWDetailViewController.m; sourceTree = "<group>"; };
 		4A1DFC95197CC1FD00687222 /* ZSWDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZSWDetailViewController.xib; path = Productiv/ZSWDetailViewController.xib; sourceTree = "<group>"; };
-		4A1DFC98197CE98600687222 /* bigNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigNote.png; path = ../../images/bigNote.png; sourceTree = "<group>"; };
-		4A1DFC99197CE98600687222 /* bigNote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bigNote@2x.png"; path = "../../images/bigNote@2x.png"; sourceTree = "<group>"; };
-		4A1DFC9A197CE98600687222 /* miniNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = miniNote.png; path = ../../images/miniNote.png; sourceTree = "<group>"; };
-		4A1DFC9B197CE98600687222 /* miniNote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "miniNote@2x.png"; path = "../../images/miniNote@2x.png"; sourceTree = "<group>"; };
 		4A2D09CE197A2162007AC3B9 /* ZSWCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWCategoryViewController.h; sourceTree = "<group>"; };
 		4A2D09CF197A2162007AC3B9 /* ZSWCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWCategoryViewController.m; sourceTree = "<group>"; };
 		4A2D09D1197A3716007AC3B9 /* ZSWNewCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWNewCategoryViewController.h; sourceTree = "<group>"; };
@@ -163,24 +114,6 @@
 		4A2D09E4197A4B57007AC3B9 /* ZSWNewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWNewTaskViewController.h; sourceTree = "<group>"; };
 		4A2D09E5197A4B57007AC3B9 /* ZSWNewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWNewTaskViewController.m; sourceTree = "<group>"; };
 		4A2D09E6197A4B57007AC3B9 /* ZSWNewTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSWNewTaskViewController.xib; sourceTree = "<group>"; };
-		4A2D09E9197AD994007AC3B9 /* Slice 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slice 1.png"; path = "../../images/Slice 1.png"; sourceTree = "<group>"; };
-		4A2D09EA197AD994007AC3B9 /* Slice 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Slice 1@2x.png"; path = "../../images/Slice 1@2x.png"; sourceTree = "<group>"; };
-		4A2D09ED197ADE3A007AC3B9 /* filledCheckmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = filledCheckmark.png; path = ../../images/filledCheckmark.png; sourceTree = "<group>"; };
-		4A2D09EE197ADE3A007AC3B9 /* filledCheckmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "filledCheckmark@2x.png"; path = "../../images/filledCheckmark@2x.png"; sourceTree = "<group>"; };
-		4A2D09F1197AE569007AC3B9 /* categories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = categories.png; path = ../../images/categories.png; sourceTree = "<group>"; };
-		4A2D09F2197AE569007AC3B9 /* categories@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "categories@2x.png"; path = "../../images/categories@2x.png"; sourceTree = "<group>"; };
-		4A2D09F5197C4427007AC3B9 /* checkmarkEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmarkEmpty.png; path = ../../images/checkmarkEmpty.png; sourceTree = "<group>"; };
-		4A2D09F6197C4427007AC3B9 /* checkmarkEmpty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkmarkEmpty@2x.png"; path = "../../images/checkmarkEmpty@2x.png"; sourceTree = "<group>"; };
-		4A2D09F7197C4427007AC3B9 /* checkmarkFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmarkFilled.png; path = ../../images/checkmarkFilled.png; sourceTree = "<group>"; };
-		4A2D09F8197C4427007AC3B9 /* checkmarkFilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkmarkFilled@2x.png"; path = "../../images/checkmarkFilled@2x.png"; sourceTree = "<group>"; };
-		4A35EF7419860BBE00307E52 /* noteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noteIcon.png; path = ../../images/noteIcon.png; sourceTree = "<group>"; };
-		4A35EF7519860BBE00307E52 /* noteIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "noteIcon@2x.png"; path = "../../images/noteIcon@2x.png"; sourceTree = "<group>"; };
-		4A35EF7619860BBE00307E52 /* repeatDaily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatDaily.png; path = ../../images/repeatDaily.png; sourceTree = "<group>"; };
-		4A35EF7719860BBE00307E52 /* repeatDaily@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "repeatDaily@2x.png"; path = "../../images/repeatDaily@2x.png"; sourceTree = "<group>"; };
-		4A35EF7819860BBE00307E52 /* repeatMonthly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatMonthly.png; path = ../../images/repeatMonthly.png; sourceTree = "<group>"; };
-		4A35EF7919860BBE00307E52 /* repeatMonthly@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "repeatMonthly@2x.png"; path = "../../images/repeatMonthly@2x.png"; sourceTree = "<group>"; };
-		4A35EF7A19860BBE00307E52 /* repeatWeekly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatWeekly.png; path = ../../images/repeatWeekly.png; sourceTree = "<group>"; };
-		4A35EF7B19860BBE00307E52 /* repeatWeekly@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "repeatWeekly@2x.png"; path = "../../images/repeatWeekly@2x.png"; sourceTree = "<group>"; };
 		4A3F5A67197A12E0002279B6 /* Productiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Productiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3F5A6A197A12E0002279B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A3F5A6C197A12E0002279B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -204,23 +137,12 @@
 		4A3F5AA3197A1B02002279B6 /* ZSWTaskStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWTaskStore.m; sourceTree = "<group>"; };
 		4A5E1A93199AE6260085B81B /* ZSWSummaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWSummaryTableViewController.h; sourceTree = "<group>"; };
 		4A5E1A94199AE6260085B81B /* ZSWSummaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWSummaryTableViewController.m; sourceTree = "<group>"; };
-		4A7D1C29198F362C004F06AA /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downArrow.png; path = ../../images/downArrow.png; sourceTree = "<group>"; };
-		4A7D1C2A198F362D004F06AA /* downArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "downArrow@2x.png"; path = "../../images/downArrow@2x.png"; sourceTree = "<group>"; };
 		4A7EA848199C7FE600477DC2 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		4A7EA84A199C805000477DC2 /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
 		4A7EA84C199C815800477DC2 /* launchSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchSmall.png; sourceTree = "<group>"; };
 		4A7EA84D199C815800477DC2 /* launchSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchSmall@2x.png"; sourceTree = "<group>"; };
 		4ABB642C1989F6430011F0AA /* ZSWCategorySummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWCategorySummaryViewController.h; sourceTree = "<group>"; };
 		4ABB642D1989F6430011F0AA /* ZSWCategorySummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWCategorySummaryViewController.m; sourceTree = "<group>"; };
-		4AC5F20119934B4800996099 /* downArrow2511.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downArrow2511.png; path = ../../images/downArrow2511.png; sourceTree = "<group>"; };
-		4AC5F20219934B4800996099 /* downArrow2511@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "downArrow2511@2x.png"; path = "../../images/downArrow2511@2x.png"; sourceTree = "<group>"; };
-		4AC5F20519934C2F00996099 /* downArrow3622.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downArrow3622.png; path = ../../images/downArrow3622.png; sourceTree = "<group>"; };
-		4AC5F20619934C2F00996099 /* downArrow3622@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "downArrow3622@2x.png"; path = "../../images/downArrow3622@2x.png"; sourceTree = "<group>"; };
-		4AC5F20919934D0100996099 /* downArrow2816.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downArrow2816.png; path = ../../images/downArrow2816.png; sourceTree = "<group>"; };
-		4AC5F20B1995758B00996099 /* repeatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatIcon.png; path = ../../images/repeatIcon.png; sourceTree = "<group>"; };
-		4AC5F20C1995758B00996099 /* repeatIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "repeatIcon@2x.png"; path = "../../images/repeatIcon@2x.png"; sourceTree = "<group>"; };
-		4AC5F20D1995758B00996099 /* repeatIconFilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repeatIconFilled.png; path = ../../images/repeatIconFilled.png; sourceTree = "<group>"; };
-		4AC5F20E1995758B00996099 /* repeatIconFilled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "repeatIconFilled@2x.png"; path = "../../images/repeatIconFilled@2x.png"; sourceTree = "<group>"; };
 		4AC5F216199693F200996099 /* iphoneAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneAppIcon.png; sourceTree = "<group>"; };
 		4AC5F217199693F200996099 /* iphoneAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneAppIcon@2x.png"; sourceTree = "<group>"; };
 		4AC5F218199693F200996099 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
@@ -228,10 +150,6 @@
 		4AC5F2241996988E00996099 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		4AC5F22619981A6500996099 /* ZSWTaskByCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSWTaskByCategoryTableViewController.h; path = ../ZSWTaskByCategoryTableViewController.h; sourceTree = "<group>"; };
 		4AC5F22719981A6500996099 /* ZSWTaskByCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSWTaskByCategoryTableViewController.m; path = ../ZSWTaskByCategoryTableViewController.m; sourceTree = "<group>"; };
-		4ADE49C71993256E00BF73B7 /* reminderClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reminderClock.png; path = ../../images/reminderClock.png; sourceTree = "<group>"; };
-		4ADE49C81993256E00BF73B7 /* reminderClock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reminderClock@2x.png"; path = "../../images/reminderClock@2x.png"; sourceTree = "<group>"; };
-		4ADE49CB199326DB00BF73B7 /* reminderClockSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reminderClockSet.png; path = ../../images/reminderClockSet.png; sourceTree = "<group>"; };
-		4ADE49CC199326DB00BF73B7 /* reminderClockSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reminderClockSet@2x.png"; path = "../../images/reminderClockSet@2x.png"; sourceTree = "<group>"; };
 		94BAA5FBF40C429DAF51A5CE /* libPods-Productiv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Productiv.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A3B71C98FC4F41A60CCB69 /* Pods-Productiv.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Productiv.xcconfig"; path = "Pods/Pods-Productiv.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -399,47 +317,6 @@
 		4A3F5A72197A12E0002279B6 /* Productiv */ = {
 			isa = PBXGroup;
 			children = (
-				4A1C347319823BB500D53C59 /* summary.png */,
-				4A1C347419823BB500D53C59 /* summary@2x.png */,
-				4A1DFC98197CE98600687222 /* bigNote.png */,
-				4A1DFC99197CE98600687222 /* bigNote@2x.png */,
-				4A1DFC9A197CE98600687222 /* miniNote.png */,
-				4A1DFC9B197CE98600687222 /* miniNote@2x.png */,
-				4A2D09F1197AE569007AC3B9 /* categories.png */,
-				4A2D09F2197AE569007AC3B9 /* categories@2x.png */,
-				4A2D09F5197C4427007AC3B9 /* checkmarkEmpty.png */,
-				4A2D09F6197C4427007AC3B9 /* checkmarkEmpty@2x.png */,
-				4A2D09F7197C4427007AC3B9 /* checkmarkFilled.png */,
-				4A2D09F8197C4427007AC3B9 /* checkmarkFilled@2x.png */,
-				4A2D09ED197ADE3A007AC3B9 /* filledCheckmark.png */,
-				4A2D09EE197ADE3A007AC3B9 /* filledCheckmark@2x.png */,
-				4A2D09E9197AD994007AC3B9 /* Slice 1.png */,
-				4A2D09EA197AD994007AC3B9 /* Slice 1@2x.png */,
-				4A1C3459197DA9C400D53C59 /* cameraIcon.png */,
-				4A1C345A197DA9C400D53C59 /* cameraIcon@2x.png */,
-				4A35EF7419860BBE00307E52 /* noteIcon.png */,
-				4A35EF7519860BBE00307E52 /* noteIcon@2x.png */,
-				4A35EF7619860BBE00307E52 /* repeatDaily.png */,
-				4A35EF7719860BBE00307E52 /* repeatDaily@2x.png */,
-				4A35EF7819860BBE00307E52 /* repeatMonthly.png */,
-				4A35EF7919860BBE00307E52 /* repeatMonthly@2x.png */,
-				4A35EF7A19860BBE00307E52 /* repeatWeekly.png */,
-				4A35EF7B19860BBE00307E52 /* repeatWeekly@2x.png */,
-				4A7D1C29198F362C004F06AA /* downArrow.png */,
-				4A7D1C2A198F362D004F06AA /* downArrow@2x.png */,
-				4ADE49C71993256E00BF73B7 /* reminderClock.png */,
-				4ADE49C81993256E00BF73B7 /* reminderClock@2x.png */,
-				4ADE49CB199326DB00BF73B7 /* reminderClockSet.png */,
-				4ADE49CC199326DB00BF73B7 /* reminderClockSet@2x.png */,
-				4AC5F20119934B4800996099 /* downArrow2511.png */,
-				4AC5F20219934B4800996099 /* downArrow2511@2x.png */,
-				4AC5F20519934C2F00996099 /* downArrow3622.png */,
-				4AC5F20619934C2F00996099 /* downArrow3622@2x.png */,
-				4AC5F20919934D0100996099 /* downArrow2816.png */,
-				4AC5F20B1995758B00996099 /* repeatIcon.png */,
-				4AC5F20C1995758B00996099 /* repeatIcon@2x.png */,
-				4AC5F20D1995758B00996099 /* repeatIconFilled.png */,
-				4AC5F20E1995758B00996099 /* repeatIconFilled@2x.png */,
 				4A2D09D7197A3EA8007AC3B9 /* Central */,
 				4A2D09D6197A3D9B007AC3B9 /* Category Tab */,
 				4A2D09DA197A3F0D007AC3B9 /* Tasks */,
@@ -579,65 +456,24 @@
 			files = (
 				4A7EA849199C7FE600477DC2 /* launch.png in Resources */,
 				4AC5F21C199693F200996099 /* iphoneAppIcon.png in Resources */,
-				4AC5F20719934C2F00996099 /* downArrow3622.png in Resources */,
-				4A35EF8119860BBE00307E52 /* repeatMonthly@2x.png in Resources */,
-				4A2D09F0197ADE3A007AC3B9 /* filledCheckmark@2x.png in Resources */,
 				4AC5F21D199693F200996099 /* iphoneAppIcon@2x.png in Resources */,
-				4A35EF7D19860BBE00307E52 /* noteIcon@2x.png in Resources */,
-				4A7D1C2B198F362D004F06AA /* downArrow.png in Resources */,
 				4AC5F2251996988E00996099 /* Media.xcassets in Resources */,
-				4A35EF8219860BBE00307E52 /* repeatWeekly.png in Resources */,
 				4A1C3466197DD57900D53C59 /* ZSWDatePickerViewController.xib in Resources */,
-				4A35EF7C19860BBE00307E52 /* noteIcon.png in Resources */,
-				4AC5F2101995758B00996099 /* repeatIcon@2x.png in Resources */,
-				4AC5F20819934C2F00996099 /* downArrow3622@2x.png in Resources */,
-				4A2D09F3197AE569007AC3B9 /* categories.png in Resources */,
-				4A1DFC9C197CE98600687222 /* bigNote.png in Resources */,
-				4A1C345B197DA9C400D53C59 /* cameraIcon.png in Resources */,
-				4AC5F20419934B4800996099 /* downArrow2511@2x.png in Resources */,
-				4ADE49C91993256E00BF73B7 /* reminderClock.png in Resources */,
 				4A1DFC97197CC1FD00687222 /* ZSWDetailViewController.xib in Resources */,
-				4ADE49CE199326DB00BF73B7 /* reminderClockSet@2x.png in Resources */,
 				4A0EA3D019A9252F00F6223B /* ZSWNewGoalViewController.xib in Resources */,
-				4A7D1C2C198F362D004F06AA /* downArrow@2x.png in Resources */,
-				4ADE49CD199326DB00BF73B7 /* reminderClockSet.png in Resources */,
 				4A3F5A77197A12E0002279B6 /* InfoPlist.strings in Resources */,
-				4A1DFC9E197CE98600687222 /* miniNote.png in Resources */,
-				4A1C347519823BB500D53C59 /* summary.png in Resources */,
-				4AC5F2121995758B00996099 /* repeatIconFilled@2x.png in Resources */,
-				4A1DFC9D197CE98600687222 /* bigNote@2x.png in Resources */,
-				4A1DFC9F197CE98600687222 /* miniNote@2x.png in Resources */,
 				4AC5F21E199693F200996099 /* iTunesArtwork.png in Resources */,
-				4AC5F20319934B4800996099 /* downArrow2511.png in Resources */,
-				4A2D09FB197C4427007AC3B9 /* checkmarkFilled.png in Resources */,
 				4A1C3454197CEED100D53C59 /* ZSWNoteViewController.xib in Resources */,
 				4A0EA3CB19A924E200F6223B /* ZSWGoalDetailViewController.xib in Resources */,
-				4A1C345C197DA9C400D53C59 /* cameraIcon@2x.png in Resources */,
-				4A35EF8019860BBE00307E52 /* repeatMonthly.png in Resources */,
-				4A2D09EB197AD994007AC3B9 /* Slice 1.png in Resources */,
 				4A7EA84B199C805000477DC2 /* launch@2x.png in Resources */,
-				4A35EF7F19860BBE00307E52 /* repeatDaily@2x.png in Resources */,
-				4A2D09F4197AE569007AC3B9 /* categories@2x.png in Resources */,
-				4A2D09F9197C4427007AC3B9 /* checkmarkEmpty.png in Resources */,
 				4A0EA3C319A9241200F6223B /* ZSWGoalCellTableViewCell.xib in Resources */,
-				4A2D09FA197C4427007AC3B9 /* checkmarkEmpty@2x.png in Resources */,
 				4A1C3461197DC4B700D53C59 /* ZSWRepeatSelectorViewController.xib in Resources */,
-				4A35EF8319860BBE00307E52 /* repeatWeekly@2x.png in Resources */,
-				4AC5F2111995758B00996099 /* repeatIconFilled.png in Resources */,
-				4A1C347619823BB500D53C59 /* summary@2x.png in Resources */,
 				4A7EA84E199C815800477DC2 /* launchSmall.png in Resources */,
-				4A2D09EC197AD994007AC3B9 /* Slice 1@2x.png in Resources */,
 				4A2D09D5197A3716007AC3B9 /* ZSWNewCategoryViewController.xib in Resources */,
 				4A2D09E8197A4B57007AC3B9 /* ZSWNewTaskViewController.xib in Resources */,
-				4AC5F20F1995758B00996099 /* repeatIcon.png in Resources */,
-				4A35EF7E19860BBE00307E52 /* repeatDaily.png in Resources */,
 				4A2D09E3197A3FED007AC3B9 /* ZSWTaskCellTableViewCell.xib in Resources */,
 				4AC5F21F199693F200996099 /* iTunesArtwork@2x.png in Resources */,
 				4A7EA84F199C815800477DC2 /* launchSmall@2x.png in Resources */,
-				4AC5F20A19934D0100996099 /* downArrow2816.png in Resources */,
-				4A2D09FC197C4427007AC3B9 /* checkmarkFilled@2x.png in Resources */,
-				4ADE49CA1993256E00BF73B7 /* reminderClock@2x.png in Resources */,
-				4A2D09EF197ADE3A007AC3B9 /* filledCheckmark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
