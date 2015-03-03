@@ -57,7 +57,7 @@
                         <action selector="switchTask:" destination="-1" eventType="touchUpInside" id="M98-mY-mL1"/>
                     </connections>
                 </button>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B7m-hh-os7" userLabel="reminder">
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B7m-hh-os7" userLabel="reminder">
                     <rect key="frame" x="5" y="147" width="311" height="36"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FZC-kV-ulL">
@@ -83,17 +83,17 @@
                         <constraint firstAttribute="height" constant="36" id="But-RQ-6vR"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfL-2n-pjd" userLabel="repeat">
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfL-2n-pjd" userLabel="repeat">
                     <rect key="frame" x="4" y="191" width="311" height="36"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75T-ni-a8x">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="75T-ni-a8x">
                             <rect key="frame" x="10" y="7" width="20" height="20"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="20" id="6qY-m8-eID"/>
                                 <constraint firstAttribute="width" constant="20" id="A7U-ch-yUu"/>
                             </constraints>
                         </imageView>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" ambiguous="YES" misplaced="YES" text="Set this task to repeat" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="bHt-5e-PB5">
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" misplaced="YES" text="Set this task to repeat" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="254" translatesAutoresizingMaskIntoConstraints="NO" id="bHt-5e-PB5">
                             <rect key="frame" x="38" y="6" width="254" height="24"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="254" id="cQF-6Q-FNC"/>

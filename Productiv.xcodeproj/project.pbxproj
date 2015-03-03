@@ -49,15 +49,7 @@
 		4A3F5AA1197A19DB002279B6 /* ZSWTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F5AA0197A19DB002279B6 /* ZSWTask.m */; };
 		4A3F5AA4197A1B02002279B6 /* ZSWTaskStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F5AA3197A1B02002279B6 /* ZSWTaskStore.m */; };
 		4A5E1A95199AE6260085B81B /* ZSWSummaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E1A94199AE6260085B81B /* ZSWSummaryTableViewController.m */; };
-		4A7EA849199C7FE600477DC2 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA848199C7FE600477DC2 /* launch.png */; };
-		4A7EA84B199C805000477DC2 /* launch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA84A199C805000477DC2 /* launch@2x.png */; };
-		4A7EA84E199C815800477DC2 /* launchSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA84C199C815800477DC2 /* launchSmall.png */; };
-		4A7EA84F199C815800477DC2 /* launchSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7EA84D199C815800477DC2 /* launchSmall@2x.png */; };
 		4ABB642E1989F6430011F0AA /* ZSWCategorySummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB642D1989F6430011F0AA /* ZSWCategorySummaryViewController.m */; };
-		4AC5F21C199693F200996099 /* iphoneAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F216199693F200996099 /* iphoneAppIcon.png */; };
-		4AC5F21D199693F200996099 /* iphoneAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F217199693F200996099 /* iphoneAppIcon@2x.png */; };
-		4AC5F21E199693F200996099 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F218199693F200996099 /* iTunesArtwork.png */; };
-		4AC5F21F199693F200996099 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F219199693F200996099 /* iTunesArtwork@2x.png */; };
 		4AC5F2251996988E00996099 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC5F2241996988E00996099 /* Media.xcassets */; };
 		4AC5F22819981A6500996099 /* ZSWTaskByCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5F22719981A6500996099 /* ZSWTaskByCategoryTableViewController.m */; };
 		A0E35C2F7AC241A1998EB23C /* libPods-Productiv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BAA5FBF40C429DAF51A5CE /* libPods-Productiv.a */; };
@@ -137,16 +129,8 @@
 		4A3F5AA3197A1B02002279B6 /* ZSWTaskStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWTaskStore.m; sourceTree = "<group>"; };
 		4A5E1A93199AE6260085B81B /* ZSWSummaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWSummaryTableViewController.h; sourceTree = "<group>"; };
 		4A5E1A94199AE6260085B81B /* ZSWSummaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWSummaryTableViewController.m; sourceTree = "<group>"; };
-		4A7EA848199C7FE600477DC2 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
-		4A7EA84A199C805000477DC2 /* launch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@2x.png"; sourceTree = "<group>"; };
-		4A7EA84C199C815800477DC2 /* launchSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchSmall.png; sourceTree = "<group>"; };
-		4A7EA84D199C815800477DC2 /* launchSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchSmall@2x.png"; sourceTree = "<group>"; };
 		4ABB642C1989F6430011F0AA /* ZSWCategorySummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSWCategorySummaryViewController.h; sourceTree = "<group>"; };
 		4ABB642D1989F6430011F0AA /* ZSWCategorySummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSWCategorySummaryViewController.m; sourceTree = "<group>"; };
-		4AC5F216199693F200996099 /* iphoneAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneAppIcon.png; sourceTree = "<group>"; };
-		4AC5F217199693F200996099 /* iphoneAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneAppIcon@2x.png"; sourceTree = "<group>"; };
-		4AC5F218199693F200996099 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
-		4AC5F219199693F200996099 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		4AC5F2241996988E00996099 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		4AC5F22619981A6500996099 /* ZSWTaskByCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZSWTaskByCategoryTableViewController.h; path = ../ZSWTaskByCategoryTableViewController.h; sourceTree = "<group>"; };
 		4AC5F22719981A6500996099 /* ZSWTaskByCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZSWTaskByCategoryTableViewController.m; path = ../ZSWTaskByCategoryTableViewController.m; sourceTree = "<group>"; };
@@ -283,7 +267,6 @@
 				4A3F5A7E197A12E0002279B6 /* Productiv.xcdatamodeld */,
 				4A1C3467197F720C00D53C59 /* ZSWDictionaryTransformer.h */,
 				4A1C3468197F720C00D53C59 /* ZSWDictionaryTransformer.m */,
-				4AC5F213199693F200996099 /* appIcons */,
 				4A3F5A72197A12E0002279B6 /* Productiv */,
 				4A3F5A8F197A12E0002279B6 /* ProductivTests */,
 				4A3F5A69197A12E0002279B6 /* Frameworks */,
@@ -355,22 +338,6 @@
 				4A3F5A92197A12E0002279B6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4AC5F213199693F200996099 /* appIcons */ = {
-			isa = PBXGroup;
-			children = (
-				4AC5F216199693F200996099 /* iphoneAppIcon.png */,
-				4AC5F217199693F200996099 /* iphoneAppIcon@2x.png */,
-				4AC5F218199693F200996099 /* iTunesArtwork.png */,
-				4AC5F219199693F200996099 /* iTunesArtwork@2x.png */,
-				4A7EA848199C7FE600477DC2 /* launch.png */,
-				4A7EA84A199C805000477DC2 /* launch@2x.png */,
-				4A7EA84C199C815800477DC2 /* launchSmall.png */,
-				4A7EA84D199C815800477DC2 /* launchSmall@2x.png */,
-			);
-			name = appIcons;
-			path = ../images/appIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,26 +421,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7EA849199C7FE600477DC2 /* launch.png in Resources */,
-				4AC5F21C199693F200996099 /* iphoneAppIcon.png in Resources */,
-				4AC5F21D199693F200996099 /* iphoneAppIcon@2x.png in Resources */,
 				4AC5F2251996988E00996099 /* Media.xcassets in Resources */,
 				4A1C3466197DD57900D53C59 /* ZSWDatePickerViewController.xib in Resources */,
 				4A1DFC97197CC1FD00687222 /* ZSWDetailViewController.xib in Resources */,
 				4A0EA3D019A9252F00F6223B /* ZSWNewGoalViewController.xib in Resources */,
 				4A3F5A77197A12E0002279B6 /* InfoPlist.strings in Resources */,
-				4AC5F21E199693F200996099 /* iTunesArtwork.png in Resources */,
 				4A1C3454197CEED100D53C59 /* ZSWNoteViewController.xib in Resources */,
 				4A0EA3CB19A924E200F6223B /* ZSWGoalDetailViewController.xib in Resources */,
-				4A7EA84B199C805000477DC2 /* launch@2x.png in Resources */,
 				4A0EA3C319A9241200F6223B /* ZSWGoalCellTableViewCell.xib in Resources */,
 				4A1C3461197DC4B700D53C59 /* ZSWRepeatSelectorViewController.xib in Resources */,
-				4A7EA84E199C815800477DC2 /* launchSmall.png in Resources */,
 				4A2D09D5197A3716007AC3B9 /* ZSWNewCategoryViewController.xib in Resources */,
 				4A2D09E8197A4B57007AC3B9 /* ZSWNewTaskViewController.xib in Resources */,
 				4A2D09E3197A3FED007AC3B9 /* ZSWTaskCellTableViewCell.xib in Resources */,
-				4AC5F21F199693F200996099 /* iTunesArtwork@2x.png in Resources */,
-				4A7EA84F199C815800477DC2 /* launchSmall@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

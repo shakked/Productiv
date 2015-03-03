@@ -62,10 +62,6 @@
     nav3.tabBarItem.title = @"Summary";
     nav3.tabBarItem.image = [UIImage imageNamed:@"summary.png"];
     
-    
-    
-
-    
     nav2.navigationBar.tintColor = [UIColor whiteColor];
     nav2.navigationBar.barTintColor = color;
     nav2.navigationBar.translucent = NO;
